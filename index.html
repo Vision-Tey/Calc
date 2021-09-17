@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <p><strong><mark>A simple Calculator</mark></strong></p>
+    <form action="" method="POST" id="calcForm">
+        <fieldset>
+            <legend><strong>Calculator</strong></legend>
+            <br> <p>First Number:....
+                <input type="text" id="firstNumber" value=" " size="5">
+            <br> Second Number:
+                <input type="text" id="secondNumber" value=" " size="5">
+                <br>
+                <br> RESULTS:.........
+                <input type="text" id="ansfirstNumbersecondNumber" value=" " size="5" disabled>
+                <br>
+                <br> CLICK:
+                <input type="button" id="Add" value="+" onclick="doSum()">
+                <input type="button" id="Sub" value="-" onclick="doSub()">
+                <input type="button" id="Multiply" value="*" onclick="doProduct()">
+                <input type="button" id="Div" value="/" onclick="doDiv()">
+                <input type="button" id="Clear" value="C" onclick="calcClear()">
+            
+            </p>
+        </fieldset>
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
